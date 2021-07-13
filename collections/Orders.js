@@ -42,6 +42,7 @@ const Orders = {
         update: () => false,
       },
       admin: {
+        readOnly: true,
         position: 'sidebar',
         condition: data => Boolean(data?.createdBy)
       },
